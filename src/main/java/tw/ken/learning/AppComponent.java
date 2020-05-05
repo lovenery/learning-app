@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package tw.ken.demo;
+package tw.ken.learning;
 
 import org.onosproject.cfg.ComponentConfigService;
 import org.osgi.service.component.ComponentContext;
@@ -95,7 +95,7 @@ public class AppComponent implements SomeInterface {
     @Activate
     protected void activate() {
         cfgService.registerProperties(getClass());
-        appId = coreService.registerApplication("tw.ken.demo");
+        appId = coreService.registerApplication("tw.ken.learning");
         log.info("Started, {}", appId.id());
 
         packetService.addProcessor(processor, PacketProcessor.director(2));

@@ -15,6 +15,6 @@
  */
 
 /**
- * The onos-demo-app application.
+ * The learning-app application.
  */
-package tw.ken.demo;
+package tw.ken.learning;

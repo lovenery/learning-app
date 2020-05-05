@@ -24,7 +24,7 @@
     </parent>
 
     <groupId>tw.ken</groupId>
-    <artifactId>onos-demo-app</artifactId>
+    <artifactId>learning-app</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
@@ -32,12 +32,12 @@
     <url>http://onosproject.org</url>
 
     <properties>
-        <onos.app.name>tw.ken.demo</onos.app.name>
-        <onos.app.title>Ken Demo App</onos.app.title>
+        <onos.app.name>tw.ken.learning</onos.app.name>
+        <onos.app.title>Learning App</onos.app.title>
         <onos.app.origin>Ken, Inc.</onos.app.origin>
         <onos.app.category>default</onos.app.category>
         <onos.app.url>http://onosproject.org</onos.app.url>
-        <onos.app.readme>ONOS Demo App.</onos.app.readme>
+        <onos.app.readme>ONOS Learning App.</onos.app.readme>
     </properties>
 
     <dependencies>
